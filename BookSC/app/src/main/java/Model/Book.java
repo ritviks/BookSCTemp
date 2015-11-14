@@ -1,4 +1,4 @@
-package logic;
+package Model;
 
 /**
  * Created by saurabhj80 on 10/21/15.
