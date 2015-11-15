@@ -123,6 +123,16 @@ public class Book {
         interestedUsers = new Vector<User>();
     }
 
+    private String message;
+    public String getMessage() {
+        return this.message;
+    }
+
+    public void setMessage(String message) {
+        this.message=message;
+    }
+
+
     // Constructor
     public Book(String name, String author, int quality, int price, User owner, int status) {
         this.name =  name;
